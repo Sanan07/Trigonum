@@ -1,0 +1,199 @@
+@import "fonts.css";
+
+body {
+    background-color: #f3f3f3;
+}
+
+/*Main cover image*/
+
+
+.cover .row {
+  position: relative;
+  padding: 0;
+}
+
+/*Logo and menu*/
+
+.navbar {
+  position: absolute;
+  top: 3%;
+  width: 100%;
+  font-family: OpenSansBold, sans-serif;
+}
+
+/*Logo*/
+
+.triangle-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 0.7vw solid transparent;
+  border-right: 0.7vw solid transparent;
+  border-top: 0.9vw solid #ed485c;
+}
+
+/*Brand*/
+
+.navbar .navbar-header a {
+  color: whitesmoke;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+  margin-top: 0.4vw;
+}
+.navbar .navbar-header a:hover {
+  color: #ed485c;
+}
+.navbar .navbar-header .icon-bar {
+  background-color: whitesmoke;
+}
+
+/*Menu items*/
+
+.navbar .navbar-collapse .nav a {
+  padding: 1.4vw 2.1vw;
+  letter-spacing: 0.1vw;
+  color: whitesmoke;
+  font-size: 0.8vw;
+  font-family: OpenSansSemiBold, sans-serif;
+  text-transform: uppercase;
+}
+.navbar .navbar-collapse .nav a:hover {
+  background-color: transparent;
+  color: #ed485c;
+}
+.navbar .navbar-collapse .nav a:focus {
+  background-color: transparent;
+}
+
+/*Triangle in center*/
+
+.triangle {
+  position: absolute;
+  top: 28%;
+  left: 1.8%;
+}
+
+/*Lider down "See Why"*/
+
+@keyframes sliderMove {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 12%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+.slider {
+  position: absolute;
+  bottom: 10%;
+  left: 4.1%;
+  -webkit-animation: sliderMove 3s infinite ease-in-out;
+  -moz-animation: sliderMove 3s infinite ease-in-out;
+  -o-animation: sliderMove 3s infinite ease-in-out;
+  animation: sliderMove 3s infinite ease-in-out;
+}
+.slider p {
+  text-align: center;
+  font-family: OpenSansBold, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  color: #fff;
+  letter-spacing: 0.1vw;
+}
+.slider .triangle-down {
+  display: block;
+  margin: 0 auto;
+}
+.slider .slider-down:hover {
+  text-decoration: none;
+}
+
+/*Services*/
+
+.services {
+  background-color: #f3f3f3;
+}
+.services .col-xs-12 {
+  margin-top: 3.5vw;
+  text-align: center;
+}
+
+/*Triangle */
+
+.services .col-xs-12 img {
+  margin: 1vw auto;
+}
+
+/*What we do*/
+
+.services .first-row .col-xs-12 h3 {
+  font-family: OpenSansSemiBold, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  color: #58667f;
+  margin: 2vw auto 1vw auto;
+}
+
+/*Text*/
+
+.services .first-row .col-xs-12 p {
+  font-family: OpenSansLightItalic, sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 0.09vw;
+  color: #58667f;
+  margin: 2vw auto 1vw auto;
+}
+.services .second-row {
+  margin: 0 auto 100px auto;
+}
+.services .second-row h1 {
+  margin-top: 2vw;
+  font-family: OpenSansSemiBold, sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #58667f;
+}
+.services .second-row h1:hover {
+  color: #ed485c;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.services .second-row p {
+  margin-top: 2vw;
+  font-family: OpenSansItalic, sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 0.11em;
+  color: #58667f;
+}
+
+/*Trigonium today*/
+.today .container-fluid .row  {
+  background: #f3f3f3 url("../images/today-bg.png") no-repeat top center;
+  background-size: cover;
+}
+.today .container-fluid .row .col-xs-12 img {
+   margin: 3.6em  auto 3em auto;
+}
+.today .container-fluid .row .col-xs-12 h1 {
+  margin-top: 2em;
+  font-family: OpenSansSemiBold,sans-serif;
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+  color:#fefeff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.today .container-fluid .row .col-xs-8 {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+.today .container-fluid .row .col-xs-8 p {
+  font-family: OpenSansItalic,sans-serif;
+  font-size: 1.6em;
+  color:#f3f3f3;
+  text-align: center;
+}

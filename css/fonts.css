@@ -1,0 +1,21 @@
+/*OpenSansBold*/
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSansBold.ttf') format('truetype');
+}
+/*OpenSansSemiBold*/
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('../fonts/OpenSansSemiBold.ttf') format('truetype');
+}
+/*OpenSansItalic*/
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('../fonts/OpenSansItalic.ttf') format('truetype');
+}
+
+/*OpenSansLightItalic*/
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('../fonts/OpenSansLightItalic.ttf') format('truetype');
+}
