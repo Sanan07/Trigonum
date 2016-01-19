@@ -1,11 +1,9 @@
 @import "fonts.css";
-
 body {
-    background-color: #f3f3f3;
+  background-color: #f3f3f3;
 }
 
 /*Main cover image*/
-
 
 .cover .row {
   position: relative;
@@ -171,29 +169,82 @@ body {
 }
 
 /*Trigonium today*/
-.today .container-fluid .row  {
+
+.today .container-fluid .row {
   background: #f3f3f3 url("../images/today-bg.png") no-repeat top center;
   background-size: cover;
 }
+/*Triangle logo*/
 .today .container-fluid .row .col-xs-12 img {
-   margin: 3.6em  auto 3em auto;
+  margin: 3.6em auto 3em auto;
 }
+/*Trigonium today*/
 .today .container-fluid .row .col-xs-12 h1 {
   margin-top: 2em;
-  font-family: OpenSansSemiBold,sans-serif;
+  font-family: OpenSansSemiBold, sans-serif;
   font-size: 1.8em;
   letter-spacing: 0.1em;
-  color:#fefeff;
+  color: #fefeff;
   text-align: center;
   text-transform: uppercase;
 }
 .today .container-fluid .row .col-xs-8 {
   margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 .today .container-fluid .row .col-xs-8 p {
-  font-family: OpenSansItalic,sans-serif;
+  font-family: OpenSansItalic, sans-serif;
   font-size: 1.6em;
-  color:#f3f3f3;
+  color: #f3f3f3;
   text-align: center;
+}
+
+/*Team*/
+
+.team .container-fluid .row .col-xs-12 h1 {
+  margin-top: 2em;
+  margin-bottom: 2.2em;
+  font-family: OpenSansSemiBold, sans-serif;
+  font-size: 1.8em;
+  color: #58667f;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.team .container .row .col-lg-4 img {
+  margin: 0 auto;
+}
+.team .container .row .col-lg-4 h3 {
+  text-align: center;
+  margin: 0;
+  font-family: OpenSansSemiBold, sans-serif;
+  font-size: 1.5em;
+  color: #ed485c;
+  text-transform: uppercase;
+}
+.team .container .row .col-lg-4 h4 {
+  text-align: center;
+  font-family: OpenSansLightItalic, sans-serif;
+  color: #58667f;
+}
+/*Social nwtwork icons*/
+.team .container .row .col-lg-4 .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+.team .container .row .col-lg-4 .socials .icons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team .container .row .col-lg-4 .socials .icons li {
+  text-align: center;
+  list-style: none;
+  float: left;
+  margin-top: 1.2em;
+  padding: 0px 0.99em;
 }
