@@ -1,403 +1,403 @@
-                @import "fonts.css";
-            body {
-              background-color: #f3f3f3;
-            }
-            /*Main cover image*/
-
-            .cover .row {
-              position: relative;
-              padding: 0;
-            }
-            /*Logo and menu*/
-
-            .navbar {
-              position: absolute;
-              top: 3%;
-              width: 100%;
-              font-family: OpenSansBold, sans-serif;
-            }
-            /*Logo*/
-
-            .triangle-down {
-              display: inline-block;
-              width: 0;
-              height: 0;
-              border-left: 0.7vw solid transparent;
-              border-right: 0.7vw solid transparent;
-              border-top: 0.9vw solid #ed485c;
-            }
-            /*Brand*/
-
-            .navbar .navbar-header a {
-              color: whitesmoke;
-              font-size: 1.2vw;
-              letter-spacing: 0.1vw;
-              margin-top: 0.4vw;
-            }
-            .navbar .navbar-header a:hover {
-              color: #ed485c;
-            }
-            .navbar .navbar-header .icon-bar {
-              background-color: whitesmoke;
-            }
-            /*Menu items*/
-
-            .navbar .navbar-collapse .nav a {
-              padding: 1.4vw 2.1vw;
-              letter-spacing: 0.1vw;
-              color: whitesmoke;
-              font-size: 0.8vw;
-              font-family: OpenSansSemiBold, sans-serif;
-              text-transform: uppercase;
-            }
-            .navbar .navbar-collapse .nav a:hover {
-              background-color: transparent;
-              color: #ed485c;
-              transition: all ease 0.3s;
-            }
-            .navbar .navbar-collapse .nav a:focus {
-              background-color: transparent;
-            }
-            /*Triangle in center*/
-
-            .triangle {
-              position: absolute;
-              top: 28%;
-              left: 1.8%;
-            }
-            /*Lider down "See Why"*/
-
-            @keyframes sliderMove {
-              0% {
-                bottom: 10%;
-              }
-              50% {
-                bottom: 12%;
-              }
-              100% {
-                bottom: 10%;
-              }
-            }
-            .slider {
-              position: absolute;
-              bottom: 10%;
-              left: 4.1%;
-              -webkit-animation: sliderMove 3s infinite ease-in-out;
-              -moz-animation: sliderMove 3s infinite ease-in-out;
-              -o-animation: sliderMove 3s infinite ease-in-out;
-              animation: sliderMove 3s infinite ease-in-out;
-            }
-            .slider p {
-              text-align: center;
-              font-family: OpenSansBold, sans-serif;
-              text-transform: uppercase;
-              font-size: 1.2vw;
-              color: #fff;
-              letter-spacing: 0.1vw;
-            }
-            .slider .triangle-down {
-              display: block;
-              margin: 0 auto;
-            }
-            .slider .slider-down:hover {
-              text-decoration: none;
-            }
-            /*Services*/
-
-            .services {
-              background-color: #f3f3f3;
-            }
-            .services .col-xs-12 {
-              margin-top: 3.5vw;
-              text-align: center;
-            }
-            /*Triangle */
-
-            .services .col-xs-12 img {
-              margin: 1vw auto;
-            }
-            /*What we do*/
-
-            .services .first-row .col-xs-12 h3 {
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 2em;
-              text-transform: uppercase;
-              letter-spacing: 0.1vw;
-              color: #58667f;
-              margin: 2vw auto 1vw auto;
-            }
-            /*Text*/
-
-            .services .first-row .col-xs-12 p {
-              font-family: OpenSansLightItalic, sans-serif;
-              font-size: 1.3em;
-              letter-spacing: 0.09vw;
-              color: #58667f;
-              margin: 2vw auto 1vw auto;
-            }
-            .services .second-row {
-              margin: 0 auto 100px auto;
-            }
-            .services .second-row h1 {
-              margin-top: 2vw;
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.3em;
-              text-transform: uppercase;
-              color: #58667f;
-            }
-            .services .second-row h1:hover {
-              color: #ed485c;
-              cursor: pointer;
-              transition: all ease 0.5s;
-            }
-            .services .second-row p {
-              margin-top: 2vw;
-              font-family: OpenSansItalic, sans-serif;
-              font-size: 1.3em;
-              letter-spacing: 0.11em;
-              color: #58667f;
-            }
-            /*Trigonium today*/
-
-            .today .container-fluid .row {
-              background: #f3f3f3 url("../images/today-bg.png") no-repeat top center;
-              background-size: cover;
-            }
-            /*Triangle logo*/
-
-            .today .container-fluid .row .col-xs-12 img {
-              margin: 3.6em auto 3em auto;
-            }
-            /*Trigonium today*/
-
-            .today .container-fluid .row .col-xs-12 h1 {
-              margin-top: 2em;
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.8em;
-              letter-spacing: 0.1em;
-              color: #fefeff;
-              text-align: center;
-              text-transform: uppercase;
-            }
-            .today .container-fluid .row .col-xs-8 {
-              margin-top: 1.5em;
-              margin-bottom: 4em;
-            }
-            .today .container-fluid .row .col-xs-8 p {
-              font-family: OpenSansItalic, sans-serif;
-              font-size: 1.6em;
-              color: #f3f3f3;
-              text-align: center;
-            }
-            /*Team*/
-
-            .team .container-fluid .row .col-xs-12 h1 {
-              margin-top: 2em;
-              margin-bottom: 2.2em;
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.8em;
-              color: #58667f;
-              text-align: center;
-              text-transform: uppercase;
-              letter-spacing: 0.1em;
-            }
-            .team .container .row .col-lg-4 img {
-              margin: 0 auto;
-            }
-            .team .container .row .col-lg-4 h3 {
-              text-align: center;
-              margin: 0;
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.5em;
-              color: #ed485c;
-              text-transform: uppercase;
-            }
-            .team .container .row .col-lg-4 h4 {
-              text-align: center;
-              font-family: OpenSansLightItalic, sans-serif;
-              color: #58667f;
-            }
-            /*Social nwtwork icons*/
-
-            .team .container .row .col-lg-4 .socials {
-              margin-bottom: 4em;
-            }
-            .team .container .row .col-lg-4 .socials .icons {
-              margin: 0;
-              padding: 0;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-            .team .container .row .col-lg-4 .socials .icons li {
-              text-align: center;
-              list-style: none;
-              float: left;
-              margin-top: 1.2em;
-              padding: 0px 0.99em;
-            }
-            /*Happy Clients*/
-
-            .clients {
-              background: url("../images/clients-bg.png") no-repeat top left;
-              background-size: cover;
-            }
-            .clients .container-fluid .row .col-xs-12 img {
-              margin: 3.6em auto;
-            }
-            .clients .container-fluid .row .col-xs-12 h1 {
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.8em;
-              color: #ed485c;
-              text-align: center;
-              text-transform: uppercase;
-              letter-spacing: 0.1em;
-            }
-            .clients .container .row .col-xs-12 {
-              margin-top: 4em;
-              margin-bottom: 4em;
-            }
-            .clients .container .row .col-xs-12 img {
-              display: block;
-              margin: 0 auto;
-            }
-            /*Our Work*/
-
-            .work .container-fluid .row .col-xs-12 .work-triangle {
-              margin: 3.8em auto;
-            }
-            .work .container-fluid .row .col-xs-12 h1 {
-              text-align: center;
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.8em;
-              color: #58667f;
-              text-transform: uppercase;
-              letter-spacing: 0.1em;
-            }
-            .work .container-fluid .row .col-xs-12 .sort-buttons {
-              height: 50px;
-              margin: 3.5em auto;
-            }
-            .work .container-fluid .row .col-xs-12 .sort-buttons li {
-              float: left;
-              list-style: none;
-              padding: 0.8em;
-            }
-            .work .container-fluid .row .col-xs-12 .sort-buttons li a {
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.2em;
-              text-decoration: none;
-              text-transform: uppercase;
-              padding: 0.5em 1.26em;
-              color: #ed485c;
-              border: 0.1em solid #ed485c;
-            }
-            .work .container-fluid .row .col-xs-12 .sort-buttons li:hover a {
-              background-color: #97a5b7;
-              border-color: #97a5b7;
-              color: whitesmoke;
-            }
-            .work .container-fluid .items .row .col-lg-2 {
-              padding: 0;
-              position: relative;
-            }
-            .work .container-fluid .items .row .col-lg-2 img {
-              width: 100%;
-            }
-            .work .container-fluid .items .row .col-lg-2 {
-              width: 100%;
-            }
-            .work .container-fluid .items .row .col-lg-2 .color-overlay {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              transition: all ease 0.7s;
-              opacity: 0;
-            }
-            .work .container-fluid .items .row .col-lg-2:hover .color-overlay {
-              transition: all ease 0.4s;
-              opacity: 1;
-              background-color: rgba(237, 72, 92, 0.8);
-            }
-            .work .container-fluid .items .row .col-lg-2 .color-overlay p {
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.2em;
-              color: white;
-              text-transform: uppercase;
-            }
-            .work .container-fluid .items .row .col-lg-2 .color-overlay .left-logo {
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 20%;
-              height: 25%;
-            }
-            .work .container-fluid .items .row .col-lg-2 .color-overlay .right-logo {
-              position: absolute;
-              top: 0;
-              right: 0;
-              width: 20%;
-              height: 25%;
-            }
-            /*Blog*/
-
-            .blog .container .row .col-xs-12 .blog-triangle {
-              margin: 3em auto 3.2em auto;
-            }
-            .blog .container .row .col-xs-12 h1:nth-child(2) {
-              text-align: center;
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.8em;
-              color: #58667f;
-              text-transform: uppercase;
-              letter-spacing: 0.1em;
-            }
-            .blog .container .row .col-lg-4 {
-              margin-top: 3em;
-            }
-            .blog .container .row .col-lg-4  img{
-              display: inline-block;
-              margin-bottom: 2em;
-              margin-right: 1em;
-              float: left;
-            }
-            .blog .container .row .col-lg-4 span {
-                font-family: OpenSansLight,sans-serif;
-                font-size: 1.1em;
-                margin-left: 1.2em;
-                letter-spacing: 0.15em;
-                vertical-align: top;
-                color: #97a5b7;
-            }
-            .blog .container .row .col-lg-4 .comment {
-                float: right;
-            }
-            .blog .container .row .col-xs-12 h1 {
-              text-align: center;
-              font-family: OpenSansSemiBold, sans-serif;
-              font-size: 1.8em;
-              color: #58667f;
-              margin-bottom: 1.5em;
-            }
-            .blog .container .row .col-xs-12 p {
-              text-align: justify;;
-              font-family: OpenSansRegular, sans-serif;
-              font-size: 1.1em;
-              color: #58667f;
-              margin-right: 0em;
-            }
-
-            @media (min-width: 768px) {
-              .work .container-fluid .items .row .col-lg-2 {
-                width: 50%;
-                float: left;
-              }
-              @media (min-width: 1200px) {
-                .work .container-fluid .items .row .col-lg-2 {
-                  width: 20%;
+                    @import "fonts.css";
+                body {
+                  background-color: #f3f3f3;
                 }
+                /*Main cover image*/
+
+                .cover .row {
+                  position: relative;
+                  padding: 0;
+                }
+                /*Logo and menu*/
+
+                .navbar {
+                  position: absolute;
+                  top: 3%;
+                  width: 100%;
+                  font-family: OpenSansBold, sans-serif;
+                }
+                /*Logo*/
+
+                .triangle-down {
+                  display: inline-block;
+                  width: 0;
+                  height: 0;
+                  border-left: 0.7vw solid transparent;
+                  border-right: 0.7vw solid transparent;
+                  border-top: 0.9vw solid #ed485c;
+                }
+                /*Brand*/
+
+                .navbar .navbar-header a {
+                  color: whitesmoke;
+                  font-size: 1.2vw;
+                  letter-spacing: 0.1vw;
+                  margin-top: 0.4vw;
+                }
+                .navbar .navbar-header a:hover {
+                  color: #ed485c;
+                }
+                .navbar .navbar-header .icon-bar {
+                  background-color: whitesmoke;
+                }
+                /*Menu items*/
+
+                .navbar .navbar-collapse .nav a {
+                  padding: 1.4vw 2.1vw;
+                  letter-spacing: 0.1vw;
+                  color: whitesmoke;
+                  font-size: 0.8vw;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  text-transform: uppercase;
+                }
+                .navbar .navbar-collapse .nav a:hover {
+                  background-color: transparent;
+                  color: #ed485c;
+                  transition: all ease 0.3s;
+                }
+                .navbar .navbar-collapse .nav a:focus {
+                  background-color: transparent;
+                }
+                /*Triangle in center*/
+
+                .triangle {
+                  position: absolute;
+                  top: 28%;
+                  left: 1.8%;
+                }
+                /*Lider down "See Why"*/
+
+                @keyframes sliderMove {
+                  0% {
+                    bottom: 10%;
+                  }
+                  50% {
+                    bottom: 12%;
+                  }
+                  100% {
+                    bottom: 10%;
+                  }
+                }
+                .slider {
+                  position: absolute;
+                  bottom: 10%;
+                  left: 4.1%;
+                  -webkit-animation: sliderMove 3s infinite ease-in-out;
+                  -moz-animation: sliderMove 3s infinite ease-in-out;
+                  -o-animation: sliderMove 3s infinite ease-in-out;
+                  animation: sliderMove 3s infinite ease-in-out;
+                }
+                .slider p {
+                  text-align: center;
+                  font-family: OpenSansBold, sans-serif;
+                  text-transform: uppercase;
+                  font-size: 1.2vw;
+                  color: #fff;
+                  letter-spacing: 0.1vw;
+                }
+                .slider .triangle-down {
+                  display: block;
+                  margin: 0 auto;
+                }
+                .slider .slider-down:hover {
+                  text-decoration: none;
+                }
+                /*Services*/
+
+                .services {
+                  background-color: #f3f3f3;
+                }
+                .services .col-xs-12 {
+                  margin-top: 3.5vw;
+                  text-align: center;
+                }
+                /*Triangle */
+
+                .services .col-xs-12 img {
+                  margin: 1vw auto;
+                }
+                /*What we do*/
+
+                .services .first-row .col-xs-12 h3 {
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 2em;
+                  text-transform: uppercase;
+                  letter-spacing: 0.1vw;
+                  color: #58667f;
+                  margin: 2vw auto 1vw auto;
+                }
+                /*Text*/
+
+                .services .first-row .col-xs-12 p {
+                  font-family: OpenSansLightItalic, sans-serif;
+                  font-size: 1.3em;
+                  letter-spacing: 0.09vw;
+                  color: #58667f;
+                  margin: 2vw auto 1vw auto;
+                }
+                .services .second-row {
+                  margin: 0 auto 100px auto;
+                }
+                .services .second-row h1 {
+                  margin-top: 2vw;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.3em;
+                  text-transform: uppercase;
+                  color: #58667f;
+                }
+                .services .second-row h1:hover {
+                  color: #ed485c;
+                  cursor: pointer;
+                  transition: all ease 0.5s;
+                }
+                .services .second-row p {
+                  margin-top: 2vw;
+                  font-family: OpenSansItalic, sans-serif;
+                  font-size: 1.3em;
+                  letter-spacing: 0.11em;
+                  color: #58667f;
+                }
+                /*Trigonium today*/
+
+                .today .container-fluid .row {
+                  background: #f3f3f3 url("../images/today-bg.png") no-repeat top center;
+                  background-size: cover;
+                }
+                /*Triangle logo*/
+
+                .today .container-fluid .row .col-xs-12 img {
+                  margin: 3.6em auto 3em auto;
+                }
+                /*Trigonium today*/
+
+                .today .container-fluid .row .col-xs-12 h1 {
+                  margin-top: 2em;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.8em;
+                  letter-spacing: 0.1em;
+                  color: #fefeff;
+                  text-align: center;
+                  text-transform: uppercase;
+                }
+                .today .container-fluid .row .col-xs-8 {
+                  margin-top: 1.5em;
+                  margin-bottom: 4em;
+                }
+                .today .container-fluid .row .col-xs-8 p {
+                  font-family: OpenSansItalic, sans-serif;
+                  font-size: 1.6em;
+                  color: #f3f3f3;
+                  text-align: center;
+                }
+                /*Team*/
+
+                .team .container-fluid .row .col-xs-12 h1 {
+                  margin-top: 2em;
+                  margin-bottom: 2.2em;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.8em;
+                  color: #58667f;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 0.1em;
+                }
+                .team .container .row .col-lg-4 img {
+                  margin: 0 auto;
+                }
+                .team .container .row .col-lg-4 h3 {
+                  text-align: center;
+                  margin: 0;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.5em;
+                  color: #ed485c;
+                  text-transform: uppercase;
+                }
+                .team .container .row .col-lg-4 h4 {
+                  text-align: center;
+                  font-family: OpenSansLightItalic, sans-serif;
+                  color: #58667f;
+                }
+                /*Social nwtwork icons*/
+
+                .team .container .row .col-lg-4 .socials {
+                  margin-bottom: 4em;
+                }
+                .team .container .row .col-lg-4 .socials .icons {
+                  margin: 0;
+                  padding: 0;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .team .container .row .col-lg-4 .socials .icons li {
+                  text-align: center;
+                  list-style: none;
+                  float: left;
+                  margin-top: 1.2em;
+                  padding: 0px 0.99em;
+                }
+                /*Happy Clients*/
+
+                .clients {
+                  background: url("../images/clients-bg.png") no-repeat top left;
+                  background-size: cover;
+                }
+                .clients .container-fluid .row .col-xs-12 img {
+                  margin: 3.6em auto;
+                }
+                .clients .container-fluid .row .col-xs-12 h1 {
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.8em;
+                  color: #ed485c;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 0.1em;
+                }
+                .clients .container .row .col-xs-12 {
+                  margin-top: 4em;
+                  margin-bottom: 4em;
+                }
+                .clients .container .row .col-xs-12 img {
+                  display: block;
+                  margin: 0 auto;
+                }
+                /*Our Work*/
+
+                .work .container-fluid .row .col-xs-12 .work-triangle {
+                  margin: 3.8em auto;
+                }
+                .work .container-fluid .row .col-xs-12 h1 {
+                  text-align: center;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.8em;
+                  color: #58667f;
+                  text-transform: uppercase;
+                  letter-spacing: 0.1em;
+                }
+                .work .container-fluid .row .col-xs-12 .sort-buttons {
+                  height: 50px;
+                  margin: 3.5em auto;
+                }
+                .work .container-fluid .row .col-xs-12 .sort-buttons li {
+                  float: left;
+                  list-style: none;
+                  padding: 0.8em;
+                }
+                .work .container-fluid .row .col-xs-12 .sort-buttons li a {
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.2em;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  padding: 0.5em 1.26em;
+                  color: #ed485c;
+                  border: 0.1em solid #ed485c;
+                }
+                .work .container-fluid .row .col-xs-12 .sort-buttons li:hover a {
+                  background-color: #97a5b7;
+                  border-color: #97a5b7;
+                  color: whitesmoke;
+                }
+                .work .container-fluid .items .row .col-lg-2 {
+                  padding: 0;
+                  position: relative;
+                }
+                .work .container-fluid .items .row .col-lg-2 img {
+                  width: 100%;
+                }
+                .work .container-fluid .items .row .col-lg-2 {
+                  width: 100%;
+                }
+                .work .container-fluid .items .row .col-lg-2 .color-overlay {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  transition: all ease 0.7s;
+                  opacity: 0;
+                }
+                .work .container-fluid .items .row .col-lg-2:hover .color-overlay {
+                  transition: all ease 0.4s;
+                  opacity: 1;
+                  background-color: rgba(237, 72, 92, 0.8);
+                }
+                .work .container-fluid .items .row .col-lg-2 .color-overlay p {
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.2em;
+                  color: white;
+                  text-transform: uppercase;
+                }
+                .work .container-fluid .items .row .col-lg-2 .color-overlay .left-logo {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 20%;
+                  height: 25%;
+                }
+                .work .container-fluid .items .row .col-lg-2 .color-overlay .right-logo {
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  width: 20%;
+                  height: 25%;
+                }
+                /*Blog*/
+
+                .blog .container .row .col-xs-12 .blog-triangle {
+                  margin: 3em auto 3.2em auto;
+                }
+                .blog .container .row .col-xs-12 h1:nth-child(2) {
+                  text-align: center;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.8em;
+                  color: #58667f;
+                  text-transform: uppercase;
+                  letter-spacing: 0.1em;
+                }
+                .blog .container .row .col-lg-4 {
+                  margin-top: 3em;
+                }
+                .blog .container .row .col-lg-4 img {
+                  display: inline-block;
+                  margin-bottom: 2em;
+                  margin-right: 1em;
+                  float: left;
+                }
+                .blog .container .row .col-lg-4 span {
+                  font-family: OpenSansLight, sans-serif;
+                  font-size: 1.1em;
+                  margin-left: 1.2em;
+                  letter-spacing: 0.15em;
+                  vertical-align: top;
+                  color: #97a5b7;
+                }
+                .blog .container .row .col-lg-4 .comment {
+                  float: right;
+                }
+                .blog .container .row .col-xs-12 h1 {
+                  text-align: center;
+                  font-family: OpenSansSemiBold, sans-serif;
+                  font-size: 1.8em;
+                  color: #58667f;
+                  margin-bottom: 1.5em;
+                }
+                .blog .container .row .col-xs-12 p {
+                  text-align: justify;
+                  ;
+                  font-family: OpenSansRegular, sans-serif;
+                  font-size: 1.1em;
+                  color: #58667f;
+                  margin-right: 0em;
+                }
+                @media (min-width: 768px) {
+                  .work .container-fluid .items .row .col-lg-2 {
+                    width: 50%;
+                    float: left;
+                  }
+                  @media (min-width: 1200px) {
+                    .work .container-fluid .items .row .col-lg-2 {
+                      width: 20%;
+                    }
