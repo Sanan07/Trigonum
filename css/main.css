@@ -446,22 +446,99 @@
                       text-decoration: none;
                     }
 
+                    .contacts .container-fluid .row .col-xs-12 img {
+                      margin: 3em auto 3.2em;
+                    }
+                    .contacts .container-fluid .row .col-xs-12 h1 {
+                      text-align: center;
+                      font-family: OpenSansSemiBold, sans-serif;
+                      font-size: 1.8em;
+                      text-transform: uppercase;
+                      color: #58667f;
+                    }
+                    .contacts .container-fluid .row .col-xs-12 p {
+                      margin-top: 2em;
+                      margin-bottom: 4em;
+                      text-align: center;
+                      letter-spacing: 0.1em;
+                      font-family: OpenSansLightItalic, sans-serif;
+                      font-size: 1.2em;
+                      color: #58667f;
+                    }
 
+                    .contacts .container .row .col-xs-4 h3 {
+                      margin-bottom: 2em;
+                      font-family: OpenSansBold, sans-serif;
+                      font-size: 1.2em;
+                      color: #58667f;
+                    }
+                    .contacts .container .row .col-xs-4 p {
+                      font-family: OpenSansItalic, sans-serif;
+                      font-size: 1.3em;
+                      color: #58667f;
+                    }
+                    .contacts .container .row .col-xs-4 p a{
+                      color: #ed485c;
+                    }
+                    .contacts .container .row .col-xs-4 p a:hover{
+                      text-decoration: none;
+                    }
+                    .contacts .container .row .col-xs-8 h1{
+                      margin-bottom: 1em;
+                      font-family: OpenSansSemiBold, sans-serif;
+                      font-size: 1.8em;
+                      text-transform: uppercase;
+                      color: #58667f;
+                    }
+                    .contacts .container .row .col-xs-8 .form-horizontal input{
+                      float: left;
+                      border-radius: 0;
+                      width: 70%;
+                      height: 53px;
+                      margin-bottom: 2em;
+                    }
+                    .contacts .container .row .col-xs-8 .form-horizontal label:nth-child(2){
+                      margin-top: 0.3em;
+                      margin-left: 1em;
+                      text-align: center;
+                      font-family: OpenSansItalic, sans-serif;
+                      font-size: 1.8em;
+                      color: #58667f;
+                    }
+                    .contacts .container .row .col-xs-8 .form-horizontal label{
+                      margin-top: 1.5em;
+                      margin-left: 1em;
+                      text-align: center;
+                      font-family: OpenSansItalic, sans-serif;
+                      font-size: 1.8em;
+                      color: #58667f;
+                    }
+                    .contacts .container .row .col-xs-8 .form-horizontal textarea{
+                      resize: none;
+                      max-width: 1250px;
+                    }
+                    .contacts .container .row .col-xs-8 .form-horizontal a{
+                      margin-top: 1.5em;
+                      float: right;
+                      padding: 0.5em 2em;
+                      font-family: OpenSansBold,sans-serif;
+                      font-size: 1.7em;
+                      background-color: #ed485c;
+                      color: #fff;
+                    }
+                    .contacts .container .row  {
+                      margin-bottom: 2em;
+                    }
+                    .contacts .container .row .col-xs-8 .form-horizontal a:hover{
+                      text-decoration: none;
+                      background-color: #105a54;
+                      color: #ed485c;
+                    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    /*Map*/
+                    .map .row .col-xs-12 {
+                      padding: 0;
+                    }
 
 
 
